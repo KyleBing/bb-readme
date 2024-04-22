@@ -5,7 +5,8 @@ export default defineConfig({
   title: "黑莓键盘说明",
   description: "HA!",
   head: [['link', {rel: 'icon', href: '/favicon.png'}]],
-  base: '/tools/bb-readme',
+  // base: '/tools/bb-readme', // kylebing.cn/tools
+  base: '/bb-readme', // github.io
   outDir: 'docs',
   ignoreDeadLinks: true,
   themeConfig: {
